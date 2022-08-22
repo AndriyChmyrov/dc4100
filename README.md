@@ -4,7 +4,7 @@ Matlab MEX wrapper written in C/C++ (MS Visual Studio) for Thorlabs DC4100/DC410
 Requires Thorlabs software, which can be downloaded for free from: 
 https://www.thorlabs.de/software_pages/ViewSoftwarePage.cfm?Code=DC4100
 
-Syntaxis:
+**Syntaxis:**
 ~~~Matlab
 % ---------------------------------------
 % Set call type: set Parameter to provided value or execute command, no output value
