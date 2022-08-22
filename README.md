@@ -6,6 +6,7 @@ https://www.thorlabs.de/software_pages/ViewSoftwarePage.cfm?Code=DC4100
 
 Syntaxis:
 ~~~Matlab
+% ---------------------------------------
 % Set call type: set Parameter to provided value or execute command, no output value
 mircat('setParameterCommand',value); 	
 
@@ -32,8 +33,8 @@ mircat('ParameterCommand',[value1,value2]);
 % if value is a scalar - the function returns the value of the Parameter
 % if value is a vector - the function sets the value of the Parameter
 % Example of Set|Get call type: 
-% dc4100('current',1)       - get the current value of the channel 1
-% dc4100('current',[1,0.5]) - set the current value of the channel 1 to 0.5 Amp
+dc4100('current',1)       - get the current value of the channel 1
+dc4100('current',[1,0.5]) - set the current value of the channel 1 to 0.5 Amp
 ~~~
 
 | Parameters/Commands:		| Call type 		|
