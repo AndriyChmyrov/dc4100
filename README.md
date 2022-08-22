@@ -32,7 +32,7 @@ result = mircat('ParameterCommand',value1);
 mircat('ParameterCommand',[value1,value2]);
 % if value is a scalar - the function returns the value of the Parameter
 % if value is a vector - the function sets the value of the Parameter
-% Example of Set|Get call type: 
+% Example of setORget call type: 
 dc4100('current',1)       - get the current value of the channel 1
 dc4100('current',[1,0.5]) - set the current value of the channel 1 to 0.5 Amp
 ~~~
